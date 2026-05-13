@@ -23,7 +23,7 @@ app.get("/",(req,res)=>{
     })
 })
 
-app.get("/health",(req,res)=>{
+app.get("/health",(req,res)=>{ //health route
     res.status(200).json({
         message: "Server is healthy",
         success: true
