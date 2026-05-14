@@ -13,7 +13,7 @@ const io = new Server(httpServer,{
     }
 })
 
-const ySocketIO = new YSocketIO(io)
+const ySocketIO = new YSocketIO(io) //initializing y socket io.........
 ySocketIO.initialize()
 
 app.get("/",(req,res)=>{
